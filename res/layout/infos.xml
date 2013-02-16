@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:screenOrientation="nosensor" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="Herzlich Willkommen bei iTheming.de!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:textColor="#ffffff"
+            android:text="Wir sind eine sehr neue Community, die sich rund um das Thema iDevices kümmert. Unser Schwerpunkt ist das umstylen/modden von iPhone-Themes!
+Wenn du mit uns zusammen arbeiten willst, dann melde dich kostenlos bei uns an!"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="social"
+        android:text="Social Networks" />    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:onClick="register"
+        android:text="Registrieren" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="login"
+        android:text="Login" />
+    
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+    
+    <Button
+        android:id="@+id/changelogbutton"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:onClick="changelog"
+        android:text="Changelog" />
+
+    <Button
+        android:id="@+id/updatebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="spenden"
+        android:text="Credits" />    </LinearLayout>
+
+    </LinearLayout>
