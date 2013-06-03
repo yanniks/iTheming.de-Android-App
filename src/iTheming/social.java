@@ -3,12 +3,11 @@ package iTheming;
 import de.itheming.app.R;
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.webkit.WebView;
 
 public class social extends Activity {
-	private WebView mWebView;
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -16,10 +15,12 @@ public class social extends Activity {
         setContentView(R.layout.social);
 	}       
     	public void twitter (final View view) {
-	    	startActivity (new Intent (this, twitter.class));
+    		Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://twitter.com/iThemingde"));
+    		startActivity(browserIntent);
 	}
     	public void facebook (final View view) {
-	    	startActivity (new Intent (this, facebook.class));
+    		Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://facebook.com/itheming.forum"));
+    		startActivity(browserIntent);
 	}
         
     }
