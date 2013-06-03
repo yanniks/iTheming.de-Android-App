@@ -24,8 +24,8 @@ public class social extends Activity {
      		 Intent facebookIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("fb://page/187629521290702")); 
      		 startActivity(facebookIntent);
        	   } catch (Exception e) {
-    		Intent twitterIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://facebook.com/itheming.forum"));
-    		startActivity(twitterIntent);
+    		Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://facebook.com/itheming.forum"));
+    		startActivity(browserIntent);
        	   }
 	}
         
