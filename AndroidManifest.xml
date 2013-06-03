@@ -46,8 +46,6 @@
         <activity android:name="iTheming.pn"></activity>
         <activity android:name="iTheming.news"></activity>
         <activity android:name="iTheming.social"></activity>
-        <activity android:name="iTheming.facebook"></activity>
-        <activity android:name="iTheming.twitter"></activity>
 
         </application>
 </manifest>
