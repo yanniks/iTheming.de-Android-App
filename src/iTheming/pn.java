@@ -12,8 +12,8 @@ public class pn extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pn);
-    	mWebView = (WebView) findViewById(R.id.pn);
+        setContentView(R.layout.webview);
+    	mWebView = (WebView) findViewById(R.id.webview);
     	mWebView.getSettings().setJavaScriptEnabled(true);
     	mWebView.loadUrl("http://itheming.de/private.php?folderid=0&styleid=12");
     	mWebView.setWebViewClient(new RegisterClient());

@@ -12,8 +12,8 @@ public class startseite extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.startseite);
-    	mWebView = (WebView) findViewById(R.id.webstart);
+        setContentView(R.layout.webview);
+    	mWebView = (WebView) findViewById(R.id.webview);
     	mWebView.getSettings().setJavaScriptEnabled(true);
     	mWebView.loadUrl("http://itheming.de/?styleid=12");
     	mWebView.setWebViewClient(new StartseiteClient());

@@ -12,8 +12,8 @@ public class paypal extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.paypal);
-    	mWebView = (WebView) findViewById(R.id.paypalweb);
+        setContentView(R.layout.webview);
+    	mWebView = (WebView) findViewById(R.id.webview);
     	mWebView.getSettings().setJavaScriptEnabled(true);
     	mWebView.loadUrl("http://yanniks.de/ithemingpaypal");
     }

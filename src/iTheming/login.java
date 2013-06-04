@@ -12,8 +12,8 @@ public class login extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login);
-    	mWebView = (WebView) findViewById(R.id.weblogin);
+        setContentView(R.layout.webview);
+    	mWebView = (WebView) findViewById(R.id.webview);
     	mWebView.getSettings().setJavaScriptEnabled(true);
     	mWebView.loadUrl("http://itheming.de/mobile.php?do=login&styleid=12");
     	mWebView.setWebViewClient(new LoginClient());

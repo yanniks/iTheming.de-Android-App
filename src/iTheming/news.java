@@ -12,8 +12,8 @@ public class news extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.news);
-    	mWebView = (WebView) findViewById(R.id.news);
+        setContentView(R.layout.webview);
+    	mWebView = (WebView) findViewById(R.id.webview);
     	mWebView.getSettings().setJavaScriptEnabled(true);
     	mWebView.loadUrl("http://itheming.de/content.php?styleid=12");
     	mWebView.setWebViewClient(new LoginClient());

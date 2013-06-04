@@ -12,8 +12,8 @@ public class register extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.register);
-    	mWebView = (WebView) findViewById(R.id.webregister);
+        setContentView(R.layout.webview);
+    	mWebView = (WebView) findViewById(R.id.webview);
     	mWebView.getSettings().setJavaScriptEnabled(true);
     	mWebView.loadUrl("http://itheming.de/register.php?styleid=12");
     	mWebView.setWebViewClient(new RegisterClient());

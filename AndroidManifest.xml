@@ -37,7 +37,6 @@
         <activity android:name="iTheming.startseite"></activity>
         <activity android:name="iTheming.infos"></activity>
         <activity android:name="iTheming.spenden"></activity>
-        <activity android:name="iTheming.update"></activity>
         <activity android:name="iTheming.paypal"></activity>
         <activity android:name="iTheming.changelog"></activity>
         <activity android:name="iTheming.changelog_10"></activity>
