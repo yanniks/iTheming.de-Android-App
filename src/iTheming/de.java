@@ -33,9 +33,6 @@ public class de extends Activity {
 	public void infos (final View view) {
     	startActivity (new Intent (this,infos.class));
 }
-	public void update (final View view) {
-    	startActivity (new Intent (this,update.class));
-}
 	public void forum (final View view) {
     	startActivity (new Intent (this,forum.class));
 }

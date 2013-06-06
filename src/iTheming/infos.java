@@ -25,9 +25,7 @@ public class infos extends Activity {
 	public void changelog (final View view) {
 		startActivity (new Intent (this,changelog.class));
 }
-	public void update (final View view) {
-    	startActivity (new Intent (this,update.class));
-}	public void social (final View view) {
+	public void social (final View view) {
 	startActivity (new Intent (this,social.class));
 }
 }
