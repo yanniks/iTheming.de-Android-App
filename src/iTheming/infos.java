@@ -16,9 +16,6 @@ public class infos extends Activity {
 	public void spenden (final View view) {
     	startActivity (new Intent (this,spenden.class));
 }
-	public void register (final View view) {
-    	startActivity (new Intent (this, register.class));
-}
 	public void login (final View view) {
 		startActivity (new Intent (this,login.class));
 }

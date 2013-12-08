@@ -15,7 +15,7 @@ public class pn extends Activity {
         setContentView(R.layout.webview);
     	mWebView = (WebView) findViewById(R.id.webview);
     	mWebView.getSettings().setJavaScriptEnabled(true);
-    	mWebView.loadUrl("http://itheming.de/private.php?folderid=0&styleid=12");
+    	mWebView.loadUrl("http://itheming.com/index.php/ConversationList/");
     	mWebView.setWebViewClient(new RegisterClient());
     }
     private class RegisterClient extends WebViewClient {

@@ -15,7 +15,7 @@ public class startseite extends Activity {
         setContentView(R.layout.webview);
     	mWebView = (WebView) findViewById(R.id.webview);
     	mWebView.getSettings().setJavaScriptEnabled(true);
-    	mWebView.loadUrl("http://itheming.de/?styleid=12");
+    	mWebView.loadUrl("http://itheming.com");
     	mWebView.setWebViewClient(new StartseiteClient());
     }
     private class StartseiteClient extends WebViewClient {

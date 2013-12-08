@@ -28,18 +28,11 @@
         android:text="Infos " />
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="162dp"
-        android:layout_height="wrap_content"
-        android:onClick="register"
-        android:text="Registrieren" />
-
-    <Button
         android:id="@+id/button5"
         android:layout_width="162dp"
         android:layout_height="wrap_content"
         android:onClick="login"
-        android:text="Login" />
+        android:text="Login / Registrieren" />
 
     <TextView
         android:id="@+id/textView1"
@@ -75,6 +68,6 @@
             android:layout_width="162dp"
             android:layout_height="wrap_content"
             android:onClick="newposts1"
-            android:text="Neue Posts" />
+            android:text="Portal" />
 
     </LinearLayout>

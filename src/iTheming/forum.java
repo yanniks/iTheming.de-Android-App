@@ -15,7 +15,7 @@ public class forum extends Activity {
         setContentView(R.layout.webview);
     	mWebView = (WebView) findViewById(R.id.webview);
     	mWebView.getSettings().setJavaScriptEnabled(true);
-    	mWebView.loadUrl("http://itheming.de/forum.php?styleid=12");
+    	mWebView.loadUrl("http://itheming.com/index.php/BoardList/");
     	mWebView.setWebViewClient(new RegisterClient());
     }
     private class RegisterClient extends WebViewClient {

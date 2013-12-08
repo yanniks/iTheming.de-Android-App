@@ -15,7 +15,7 @@ public class news extends Activity {
         setContentView(R.layout.webview);
     	mWebView = (WebView) findViewById(R.id.webview);
     	mWebView.getSettings().setJavaScriptEnabled(true);
-    	mWebView.loadUrl("http://itheming.de/content.php?styleid=12");
+    	mWebView.loadUrl("http://itheming.com");
     	mWebView.setWebViewClient(new LoginClient());
     }
     private class LoginClient extends WebViewClient {

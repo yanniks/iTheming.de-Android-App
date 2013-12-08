@@ -15,7 +15,7 @@ public class login extends Activity {
         setContentView(R.layout.webview);
     	mWebView = (WebView) findViewById(R.id.webview);
     	mWebView.getSettings().setJavaScriptEnabled(true);
-    	mWebView.loadUrl("http://itheming.de/mobile.php?do=login&styleid=12");
+    	mWebView.loadUrl("http://itheming.com/index.php/Login");
     	mWebView.setWebViewClient(new LoginClient());
     }
     private class LoginClient extends WebViewClient {

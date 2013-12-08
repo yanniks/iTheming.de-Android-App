@@ -15,10 +15,6 @@ public class de extends Activity {
     public void newposts1 (final View view) {
     	startActivity (new Intent (this, newposts.class));
     }
-
-	public void register (final View view) {
-	    	startActivity (new Intent (this, register.class));
-	}
 	
 	public void login (final View view) {
     	startActivity (new Intent (this,login.class));

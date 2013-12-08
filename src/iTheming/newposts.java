@@ -15,7 +15,7 @@ public class newposts extends Activity {
         setContentView(R.layout.webview);
     	mWebView = (WebView) findViewById(R.id.webview);
     	mWebView.getSettings().setJavaScriptEnabled(true);
-    	mWebView.loadUrl("http://itheming.de/search.php?do=getnew&styleid=12");
+    	mWebView.loadUrl("http://itheming.com/index.php/Portal/");
     	mWebView.setWebViewClient(new PostsClient());
     }
     private class PostsClient extends WebViewClient {
