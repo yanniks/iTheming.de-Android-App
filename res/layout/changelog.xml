@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/bg"
     android:orientation="vertical"
     android:screenOrientation="nosensor" >
 
@@ -12,122 +11,24 @@
         android:layout_height="50dp"
         android:gravity="center"
         android:shadowColor="#f0f0f0"
-        android:textColor="#ffffff"
         android:shadowDx="9"
         android:shadowDy="9"
         android:shadowRadius="2"
-        android:text="Changelog"
+        android:text="@string/changelog"
         android:textAppearance="?android:attr/textAppearanceLarge" />
         <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/ver3"
         android:layout_width="match_parent"
         android:layout_height="26dp"
-        android:text="Version 2.0.8"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#ffffff" />
-                    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_weight="0.00"
-        android:text="- Entfernt Versionslimitierung"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#ffffff" />
+        android:text="@string/version3"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
         <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/ver3_desc"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_weight="0.00"
-        android:text="- Facebook- und Twitter-App-Integration überarbeitet"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#ffffff" />
-        <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.00"
-        android:text="- Neues App Icon"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#ffffff" />
-            <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_weight="0.00"
-        android:text="- Bug fixes"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#ffffff" />
-    
-        <TextView
-        android:id="@+id/textView1"
-        android:layout_width="match_parent"
-        android:layout_height="26dp"
-        android:text="Version 2.0.7"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#ffffff" />
-                    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_weight="0.00"
-        android:text="- Support für Android JellyBean 4.2"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#ffffff" />
-        <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.00"
-        android:text="- Teilweiser Support für Holo (Android4)"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#ffffff" />
-            <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_weight="0.00"
-        android:text="- Bug fixes"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#ffffff" />
-    
-        <TextView
-        android:id="@+id/textView1"
-        android:layout_width="match_parent"
-        android:layout_height="26dp"
-        android:text="Version 2.0.6"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#ffffff" />
-                    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_weight="0.00"
-        android:text="- Support für Android 4.1 (Jellybean) und 2.2 (Froyo)"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#ffffff" />
-        <TextView
-        android:id="@+id/textView1"
-        android:layout_width="match_parent"
-        android:layout_height="26dp"
-        android:text="Version 2.0.5"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="#ffffff" />
-                    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_weight="0.00"
-        android:text="- xhdpi-Support"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#ffffff" />
-            <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_weight="0.00"
-        android:text="- Social Networks integriert"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="#ffffff" />
+        android:text="@string/version3_desc"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
         
 
 </LinearLayout>

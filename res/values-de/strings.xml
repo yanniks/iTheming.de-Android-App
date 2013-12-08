@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="forum_array">
+        <item>Portal</item>
+        <item>Neuigkeiten</item>
+        <item>Private Nachrichten</item>
+        <item>Forum</item>
+        <item>Login / Registrieren</item>
+        <item>Über die App</item>
+    </string-array>
+    <string name="changelog">Changelog</string>
+    <string name="credits">Credits</string>
+    <string name="portal">Portal</string>
+    <string name="news">Neuigkeiten</string>
+    <string name="search">Suche</string>
+    <string name="pm">Private Nachrichten</string>
+    <string name="forum">Forum</string>
+    <string name="loginreg">Login / Registrieren</string>
+    <string name="about">Über die App</string>
+    <string name="drawer_open">Navigation öffnen</string>
+    <string name="drawer_close">Navigation schließen</string>
+    <string name="version3">Version 3.0</string>
+    <string name="version3_desc">- voller Android 4 Support\n- Support für das neue Forum / die neue Domain\n- intuitivere Steuerung\n- einfachere Bedienung\n- neues App-Icon\n- App ist ab sofort auf Englisch nutzbar\n- neuer Einrichtungsassistent</string>
+    <string name="info_title">Das Dankeschön für die App geht an&#8230;</string>
+    <string name="developers">&#8230; die Entwickler:</string>
+    <string name="developers_desc">yanniks, Grundidee cazz (iPhone App)</string>
+    <string name="graphics">&#8230; die Grafiker:</string>
+    <string name="graphics_desc">yanniks</string>
+    <string name="others">Alle in dieser App erwähnten, geschützten Namen und Logos sind Eigentum ihrer rechtmäßigen Eigentümer.</string>
+    <string name="welcome">Herzlich Willkommen bei iTheming.com!</string>
+    <string name="welcome_desc">Unsere Community begann mit dem Schwerpunkt des modifizieren von iPhone und iPad Themes, inzwischen sind wir euch jedoch auch gerne behilflich, sollte euer Mac nicht mehr reagieren, das iPhone rumzicken oder ihr einfach nicht wisst, welche Kopfhörer zum iPhone am besten passen. Über neue Nutzer freuen wir uns immer gerne. Die Registrierung ist kostenfrei!</string>
+    <string name="nicetosee">Schön dich hier zu sehen!\nUm alle Funktionen dieser App zu nutzen, logge dich bitte ein. Wenn du noch nicht registriert bist ist das kein Problem. Klicke einfach auf Weiter und wir helfen dir durch die Registrierung. Du bist in einer Minute fertig - wir versprechen es!</string>
+    <string name="next">Weiter</string>
+    <string name="skip">Anmelden überspringen</string>
+    <string name="setupdone">Die Einrichtung ist abgeschlossen!</string>
+    <string name="setupdone_desc">Wir wünschen dir (weiterhin) viel Spaß mit der App und unserem Forum. Über Feedback freuen wir uns natürlich immer gerne.</string>
+</resources>

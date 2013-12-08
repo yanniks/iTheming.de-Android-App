@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="iThemingThemeForum" parent="android:Theme.Holo" >
+        <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
+    </style>
+    <style name="iThemingTheme" parent="android:Theme.Holo.Light" >
+        <item name="android:actionBarStyle">@style/iThemingActionBar</item>
+        </style>
+    <style name="iThemingActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/bg</item>
+    </style>
+</resources>

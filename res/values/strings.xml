@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">iTheming.de</string>
-    <string name="versionsnummer">2.0.8</string>
-    <string name="url_posts">http://itheming.de/search.php?do=getnew&amp;contenttype=vBForum_Post</string>
-
+    <string name="app_name">iTheming.com</string>
+    <string name="versionsnummer">3.0</string>
+    <string-array name="forum_array">
+        <item>Portal</item>
+        <item>News</item>
+        <item>Private messages</item>
+        <item>Forum</item>
+        <item>Login / register</item>
+        <item>About the app</item>
+    </string-array>
+    <string name="credits">Credits</string>
+    <string name="portal">Portal</string>
+    <string name="news">News</string>
+    <string name="search">Search</string>
+    <string name="pm">Private messages</string>
+    <string name="forum">Forum</string>
+    <string name="loginreg">Login / register</string>
+    <string name="about">About the app</string>
+    <string name="drawer_open">Open navigation</string>
+    <string name="drawer_close">Close navigation</string>
+    <string name="changelog">Changelog</string>
+    <string name="version3">Version 3.0</string>
+    <string name="version3_desc">- full Android 4 support\n- support for the new forum / for the new domain\n- a more intuitive way of controlling the app\n- easier operation\n- new app icon\n- added English language support\- new setup assistant</string>
+    <string name="info_title">The thank you for the app goes to&#8230;</string>
+    <string name="developers">&#8230; the developers:</string>
+    <string name="developers_desc">yanniks, main idea cazz (iPhone app)</string>
+    <string name="graphics">&#8230; the designers:</string>
+    <string name="graphics_desc">yanniks</string>
+    <string name="others">All trademarks referenced in this app are property of their rightful owners.</string>
+    <string name="welcome">Welcome to iTheming.com!</string>
+    <string name="welcome_desc">Our community began with the focus of modifying iPhone and iPad themes, but in the meantime we are also glad to help you if your Mac is not responding, the iPhone crashes all the time or you just don\'t know which headphones are the best for your iPhone. We always appreciate new users, so join us! The registration is free!</string>
+    <string name="nicetosee">Nice to see you here!\nTo use all features of our app, please log in. If you\'re not registered yet, that\'s no problem. Just click next and we\'ll guide you through the registration. You\'re done in a minute - we\'ll promise!</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip login</string>
+    <string name="setupdone">Setup is complete!</string>
+    <string name="setupdone_desc">We wish (furthermore) you a lot of fun with the app and our forum. We\'re always happy about feedback.</string>
+    
+    <string name="fb">Facebook</string>
+    <string name="twitter">Twitter</string>
 </resources>
