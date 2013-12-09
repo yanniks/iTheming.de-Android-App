@@ -224,6 +224,12 @@ public class ForumBrowser extends Activity {
             	mWebView.loadUrl("http://itheming.com/index.php/BoardList/");
             	mWebView.setWebViewClient(new LoginClient());
             }
+            mWebView.setWebViewClient(new WebViewClient() {
+                public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
+                    mWebView.loadUrl("file:///android_asset/" + getString(R.string.local) + "-error.html");
+
+                }
+            });
             if (forum.equals(getString(R.string.about)))
             {
             	finish();

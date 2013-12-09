@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="local">de</string>
     <string-array name="forum_array">
         <item>Portal</item>
         <item>Neuigkeiten</item>
@@ -21,6 +22,8 @@
     <string name="drawer_close">Navigation schließen</string>
     <string name="version3">Version 3.0</string>
     <string name="version3_desc">- voller Android 4 Support\n- Support für das neue Forum / die neue Domain\n- intuitivere Steuerung\n- einfachere Bedienung\n- neues App-Icon\n- App ist ab sofort auf Englisch nutzbar\n- neuer Einrichtungsassistent</string>
+    <string name="version301">Version 3.0.1</string>
+    <string name="version301_desc">- Easteregg hinzugefügt\n- Neue Fehlerseite, sollte keine Internetverbindung verfügbar sein</string>
     <string name="info_title">Das Dankeschön für die App geht an&#8230;</string>
     <string name="developers">&#8230; die Entwickler:</string>
     <string name="developers_desc">yanniks, Grundidee cazz (iPhone App)</string>
@@ -34,4 +37,5 @@
     <string name="skip">Anmelden überspringen</string>
     <string name="setupdone">Die Einrichtung ist abgeschlossen!</string>
     <string name="setupdone_desc">Wir wünschen dir (weiterhin) viel Spaß mit der App und unserem Forum. Über Feedback freuen wir uns natürlich immer gerne.</string>
+    <string name="easteregg">Warum steht ein Pilz im Wald? Weil Tannen zapfen....</string>
 </resources>

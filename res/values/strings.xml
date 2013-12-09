@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">iTheming.com</string>
-    <string name="versionsnummer">3.0</string>
+    <string name="versionsnummer">3.0.1</string>
+    <string name="local">en</string>
     <string-array name="forum_array">
         <item>Portal</item>
         <item>News</item>
@@ -23,6 +24,8 @@
     <string name="changelog">Changelog</string>
     <string name="version3">Version 3.0</string>
     <string name="version3_desc">- full Android 4 support\n- support for the new forum / for the new domain\n- a more intuitive way of controlling the app\n- easier operation\n- new app icon\n- added English language support\- new setup assistant</string>
+    <string name="version301">Version 3.0.1</string>
+    <string name="version301_desc">- add easteregg\n- add custom error page if no internet connection is available</string>
     <string name="info_title">The thank you for the app goes to&#8230;</string>
     <string name="developers">&#8230; the developers:</string>
     <string name="developers_desc">yanniks, main idea cazz (iPhone app)</string>
@@ -36,6 +39,7 @@
     <string name="skip">Skip login</string>
     <string name="setupdone">Setup is complete!</string>
     <string name="setupdone_desc">We wish (furthermore) you a lot of fun with the app and our forum. We\'re always happy about feedback.</string>
+    <string name="easteregg">What do you call a cow with no legs? Ground beef.</string>
     
     <string name="fb">Facebook</string>
     <string name="twitter">Twitter</string>

@@ -22,6 +22,12 @@ public class Login extends Activity {
     	mWebView.getSettings().setJavaScriptEnabled(true);
     	mWebView.loadUrl("http://itheming.com/index.php/Login/");
     	mWebView.setWebViewClient(new LoginClient());
+        mWebView.setWebViewClient(new WebViewClient() {
+            public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
+                mWebView.loadUrl("file:///android_asset/" + getString(R.string.local) + "-error.html");
+
+            }
+        });
     	prefs = getSharedPreferences("de.itheming.app", MODE_PRIVATE);
     }
     private class LoginClient extends WebViewClient {
